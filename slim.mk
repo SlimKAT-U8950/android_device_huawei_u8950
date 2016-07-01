@@ -15,10 +15,10 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/slim/config/gsm.mk)
 
 # Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/u8950/full_u8950.mk)
@@ -28,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 960
 TARGET_SCREEN_WIDTH := 540
 
 # Device name
-PRODUCT_NAME := cm_u8950
+PRODUCT_NAME := slim_u8950
 PRODUCT_DEVICE := u8950
 
 # CM packages
