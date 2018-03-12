@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/u8950/rootdir/1191601.img:root/tp/1191601.img
 
 PRODUCT_COPY_FILES += \
-    device/huawei/u8950/configs/AudioFilter.csv:system/etc/AudioFilter.csv \
+    device/huawei/u8950/configs/AudioFilter.csv:system/etc/AudioFilter.bak \
     device/huawei/u8950/configs/thermald.conf:system/etc/thermald.conf \
     device/huawei/u8950/configs/nvram_4330.txt:system/etc/nvram_4330.txt
 
