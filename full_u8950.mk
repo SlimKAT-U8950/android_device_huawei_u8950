@@ -21,6 +21,5 @@ $(call inherit-product, device/huawei/u8950/u8950.mk)
 $(call inherit-product, device/huawei/u8833/full_u8833.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_u8950
 PRODUCT_DEVICE := u8950
-PRODUCT_MODEL := Ascend G600
+PRODUCT_MODEL := HUAWEI U8950-1
